@@ -15,6 +15,8 @@ class Salon {
         return date.matches("\\d{4}-\\d{2}-\\d{2}");
     }
 
+
+
     public ArrayList<String> getAvailableTimes(String date) {
         if (!schedule.containsKey(date)) {
             ArrayList<String> allTimes = new ArrayList<>();
